@@ -1,45 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Responsive Landing Page</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Project 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <header>
-    <div class="container">
-      <div class="logo">Parsonal label</div>
-      <nav id="navbar">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <header>
+        <div class="container navbar">
+            <div class="logo">DevOps<span>Project</span></div>
 
-  <section class="hero">
-    <div class="container">
-      <h1>Welcome to Par.label</h1>
-      <p>Your gateway to a better web experience.</p>
-      <a href="#" class="cta-button">Get Started</a>
-    </div>
-  </section>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-  <footer>
-    <div class="container">
-      <p>& 2025 Par.label. All rights reserved.</p>
-      <div class="socials">
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">LinkedIn</a>
-      </div>
-    </div>
-  </footer>
+    <section class="hero" id="home">
+        <div class="hero-content">
+
+            <div class="badge">DEVOPS INDUSTRIAL TRAINING</div>
+
+            <h1>
+                Welcome to My<br>
+                <span>DevOps Project 2</span>
+            </h1>
+
+            <p>
+                A simple project demonstrating version control
+                using Git and GitHub.
+            </p>
+
+            <div class="buttons">
+                <a href="#features" class="btn primary">Explore Project</a>
+                <a href="#about" class="btn secondary">Learn More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="features" id="features">
+
+        <h2>What I Learned</h2>
+
+        <p class="section-text">
+            This project helped me understand the basic Git and GitHub workflow.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">01</div>
+                <h3>Git Repository</h3>
+                <p>
+                    Created and managed a Git repository for project files.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">02</div>
+                <h3>Commits</h3>
+                <p>
+                    Learned how to track changes and create meaningful commits.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">03</div>
+                <h3>GitHub</h3>
+                <p>
+                    Uploaded and managed project code on GitHub.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">04</div>
+                <h3>Branches</h3>
+                <p>
+                    Created a feature branch and worked independently.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">05</div>
+                <h3>Pull Request</h3>
+                <p>
+                    Created a Pull Request to review project changes.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">06</div>
+                <h3>Merge</h3>
+                <p>
+                    Merged the completed feature into the main branch.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-box">
+            <h2>About This Project</h2>
+
+            <p>
+                This website was created as part of my DevOps Industrial
+                Training. The main purpose of this project is to practice
+                version control and collaboration using Git and GitHub.
+            </p>
+
+            <div class="workflow">
+                <span>Working</span>
+                <b>→</b>
+                <span>Staging</span>
+                <b>→</b>
+                <span>Commit</span>
+                <b>→</b>
+                <span>GitHub</span>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="contact">
+
+        <div class="footer-content">
+            <h3>DevOps Project 2</h3>
+
+            <p>
+                Version Control with Git and GitHub
+            </p>
+
+            <div class="socials">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Email</a>
+            </div>
+
+            <p class="copyright">
+                © 2025 DevOps Project 2. All rights reserved.
+            </p>
+        </div>
+
+    </footer>
 
 </body>
 </html>
